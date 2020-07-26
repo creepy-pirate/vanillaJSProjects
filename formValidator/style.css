@@ -12,7 +12,8 @@
 
 
 body{
-    background-color:#f9fafb;
+    background-image:linear-gradient(to right,rgb(32, 32, 173),rgb(252, 190, 200));
+    
     font-family: 'Open Sans', sans-serif;
     display:flex;
     align-items:center;
@@ -23,7 +24,7 @@ body{
 
 
 .container{
-    background-color:#fff;
+    background-image:linear-gradient(to right,rgb(150, 118, 177),rgb(207, 127, 141));
     border-radius: 5px;
     box-shadow: 0 2px 10px rgba(0,0,0,0.3);
     width:400px;
@@ -104,5 +105,9 @@ body{
     padding:10px;
     margin-top:20px;
     width:100%;
+}
+
+.form-control label{
+    color:black;
 }
 
