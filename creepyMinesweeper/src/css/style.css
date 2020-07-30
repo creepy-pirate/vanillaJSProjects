@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box; }
+
+.grid {
+  height: 410px;
+  width: 410px;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #a1a1a1; }
+
+.grid div {
+  height: 40px;
+  width: 40px;
+  background-color: #638a69;
+  margin: 0.5px 0.5px; }
+
+.checked {
+  background: red !important; }
+
+.bomb {
+  background-color: orange; }
+
+.container {
+  margin-top: auto; }
+
+#myBtn {
+  background-color: #4f4568; }
+
+.state {
+  visibility: hidden; }
+
+.state.won {
+  visibility: visible; }
+
+.container {
+  display: inline-block;
+  margin-top: auto;
+  margin-left: auto; }
+
+body {
+  background-image: linear-gradient(to right, blue, orange); }
